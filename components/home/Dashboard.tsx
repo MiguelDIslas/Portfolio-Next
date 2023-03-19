@@ -1,3 +1,4 @@
+"use client";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Particle from "../general/Particle";
@@ -13,8 +14,8 @@ const Dashboard = (): JSX.Element => {
       <Particle />
       <section className="w-[80%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <p className="text-[4rem] text-center font-bold mb-5 xl:mb-0 prevent-select">
-          Hi I'm{" "}
-          <span className="text-[4rem] text-primary-color">Miguel Delgado</span>
+          Hi I'm
+          <span className="text-[4rem] text-primary-color ml-2">Miguel Delgado</span>
         </p>
         <p className="text-sm text-justify lg:text-lg lg:text-center font-semibold prevent-select">
           I'm a software developer, I like to create things that live on the

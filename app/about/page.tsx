@@ -32,10 +32,14 @@ const AboutPage = (): JSX.Element => {
   // Options for the tag cloud
   const options = { radius: 250 };
 
+  const init = () => {
+    TagCloud(container, texts, options);
+  };
+
   // Render the tag cloud
   useEffect(() => {
-    TagCloud(container, texts, options);
-  }, []);
+    init();
+  });
 
   return (
     <div className="py-8 px-2 mid:py-18 mid:px-18 md:py-20 md:px-20 prevent-select">

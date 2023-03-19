@@ -14,19 +14,19 @@ const Dashboard = (): JSX.Element => {
       <Particle />
       <section className="w-[80%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <p className="text-[4rem] text-center font-bold mb-5 xl:mb-0 prevent-select">
-          Hi I'm
+          {`Hi I'm`}
           <span className="text-[4rem] text-primary-color ml-2">Miguel Delgado</span>
         </p>
         <p className="text-sm text-justify lg:text-lg lg:text-center font-semibold prevent-select">
-          I'm a software developer, I like to create things that live on the
-          internet, from websites to applications.
+          {`I'm a software developer, I like to create things that live on the
+          internet, from websites to applications.`}
           <br />
           <span className="text-primary-color text-sm lg:text-lg">
-            I'm love with JavaScript/Typescript ecosystems.
+            {`I'm love with JavaScript/Typescript ecosystems.`}
           </span>
           <br />
-          I'm working with React, Nextjs and React Native. I'm currently
-          learning NetCore, Unity and improving Typescript.
+          {`I'm working with React, Nextjs and React Native. I'm currently
+          learning NetCore, Unity and improving Typescript.`}
         </p>
         <div className="flex justify-center mt-4">
           <SocialMediaIconAnimation

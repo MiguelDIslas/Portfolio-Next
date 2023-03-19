@@ -48,29 +48,29 @@ const AboutPage = (): JSX.Element => {
         <div className="flex flex-col lg:flex-row mt-8">
           <div className="w-100 mb-8 lg:mb-0 lg:w-50">
             <p className="py-4 text-justify">
-              I'm a self-taught person, born and raised in Delicias, Chihuahua.
+              {`I'm a self-taught person, born and raised in Delicias, Chihuahua.
               I'm into react ecosystem, I've been working with it for 2 years.
               I'm currently working as a Mobile Developer, and I have experience
-              with web development.
+              with web development.`}
               <br />
-              I'm gamer I like to play games like Call of Duty, Elden Ring, and
+              {`I'm gamer I like to play games like Call of Duty, Elden Ring, and
               many more. If I'm not playing games I'm probably watching movies
-              or series.
+              or series.`}
             </p>
             <div className="flex pb-6">
               <div className="pr-12">
-                <p className="font-semibold">Name</p>
-                <p className="font-semibold">Age</p>
-                <p className="font-semibold">Nationality </p>
-                <p className="font-semibold">Languages </p>
-                <p className="font-semibold">Location</p>
+                <p className="font-semibold">{"Name"}</p>
+                <p className="font-semibold">{"Age"}</p>
+                <p className="font-semibold">{"Nationality"} </p>
+                <p className="font-semibold">{"Languages"} </p>
+                <p className="font-semibold">{"Location"}</p>
               </div>
               <div className="py-[0.3rem]">
-                <p>: Miguel Angel Delgado</p>
-                <p>: {age.toString()}</p>
-                <p>: Mexican </p>
-                <p>: Spanish, English </p>
-                <p>: Delicias, Chihuahua</p>
+                <p>{": Miguel Angel Delgado"}</p>
+                <p>{": " + age.toString()}</p>
+                <p>{": Mexican"}</p>
+                <p>{": Spanish, English"}</p>
+                <p>{": Delicias, Chihuahua"}</p>
               </div>
             </div>
           </div>

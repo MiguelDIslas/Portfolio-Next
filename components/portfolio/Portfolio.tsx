@@ -17,8 +17,8 @@ const Portfolio = (): JSX.Element => {
 
   return (
     <div className="grid grid-cols-1 gap-8 p-12 md:grid-cols-2 lg:grid-cols-3">
-      {filteredPortfolios.map((portfolio) => (
-        <div className="block relative overflow-hidden">
+      {filteredPortfolios.map((portfolio, i) => (
+        <div key={i} className="block relative overflow-hidden">
           <div className="portfolio-image">
             <Image
               width="1000"

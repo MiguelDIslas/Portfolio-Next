@@ -8,7 +8,7 @@ import { Particle, SocialMediaIconAnimation } from "@components/general";
  * This component is used to render the home page.
  * @returns {JSX.Element} Home page component.
  */
-const HomePage: React.FC = (): JSX.Element => {
+const HomePage = (): JSX.Element => {
   return (
     <div className="w-full min-h-screen relative">
       <Particle />

@@ -10,7 +10,8 @@ import {
   SiLivewire,
   SiStyledcomponents,
 } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandNextjs, TbBrandInertia } from "react-icons/tb";
+
 
 /**
  * This component is used to set the head information of the page.
@@ -41,7 +42,7 @@ const Skills = (): JSX.Element => {
             Icon={SiLivewire}
             title="Applied to client side on laravel projects"
           />
-          <HardSkill name="Styled Components" Icon={SiStyledcomponents} />
+          <HardSkill name="Intertia/React" Icon={TbBrandInertia} />
         </div>
       </div>
     </div>

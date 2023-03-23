@@ -20,6 +20,7 @@ const AboutPage = (): JSX.Element => {
     "React Native",
     "Styled\nComponents",
     "Laravel",
+    "Inertia/React",
     "PHP",
     "Git",
     "SQL",

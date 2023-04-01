@@ -76,7 +76,7 @@ const AboutPage = (): JSX.Element => {
             </div>
           </div>
           <div className="w-100 lg:w-50">
-            <div className="tagcloud flex justify-center items-center text-primary-color my-3 mx-auto" />
+            <div className="tagcloud flex justify-center items-center text-primary-color my-3 mx-auto text-center" />
           </div>
         </div>
       </div>

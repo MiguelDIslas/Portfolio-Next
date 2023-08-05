@@ -25,8 +25,8 @@ const Dashboard = (): JSX.Element => {
             {`I'm love with JavaScript/Typescript ecosystems.`}
           </span>
           <br />
-          {`I'm working with React, Nextjs and React Native. I'm currently
-          learning NetCore, Unity and improving Typescript.`}
+          {`I'm working with NextJS, NestJS, React Native and NetCore. I'm currently
+          improving NetCore and Typescript also I'm learning Unity .`}
         </p>
         <div className="flex justify-center mt-4">
           <SocialMediaIconAnimation

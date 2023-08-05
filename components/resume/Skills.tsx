@@ -10,7 +10,7 @@ import {
   SiLivewire,
   SiNestjs,
 } from "react-icons/si";
-import { TbBrandNextjs, TbBrandInertia } from "react-icons/tb";
+import { TbBrandNextjs } from "react-icons/tb";
 
 
 /**
@@ -35,9 +35,9 @@ const Skills = (): JSX.Element => {
           />
           <HardSkill name="NextJS" Icon={TbBrandNextjs} />
           <HardSkill name="NestJS" Icon={SiNestjs} />
-          <HardSkill name="Laravel" Icon={SiLaravel} />
           <HardSkill name="Typescript" Icon={SiTypescript} />
           <HardSkill name="Javascript" Icon={SiJavascript} />
+          <HardSkill name="Laravel" Icon={SiLaravel} />
           <HardSkill
             name="Livewire"
             Icon={SiLivewire}

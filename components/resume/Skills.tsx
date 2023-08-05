@@ -8,7 +8,7 @@ import {
   SiJavascript,
   SiLaravel,
   SiLivewire,
-  SiStyledcomponents,
+  SiNestjs,
 } from "react-icons/si";
 import { TbBrandNextjs, TbBrandInertia } from "react-icons/tb";
 
@@ -34,6 +34,7 @@ const Skills = (): JSX.Element => {
             title="Web and mobile designs"
           />
           <HardSkill name="NextJS" Icon={TbBrandNextjs} />
+          <HardSkill name="NestJS" Icon={SiNestjs} />
           <HardSkill name="Laravel" Icon={SiLaravel} />
           <HardSkill name="Typescript" Icon={SiTypescript} />
           <HardSkill name="Javascript" Icon={SiJavascript} />
@@ -42,7 +43,6 @@ const Skills = (): JSX.Element => {
             Icon={SiLivewire}
             title="Applied to client side on laravel projects"
           />
-          <HardSkill name="Intertia/React" Icon={TbBrandInertia} />
         </div>
       </div>
     </div>

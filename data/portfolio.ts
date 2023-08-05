@@ -64,20 +64,4 @@ export const portfolioData: IPortofilio[] = [
     title: "TEC+",
     text: "Full Stack: Ecommerce for the student community, firebase as backend.",
   },
-  {
-    tech: "React",
-    image: "/portfolio/crypto.png",
-    link1: "https://github.com/MiguelDIslas/React-Crypto",
-    link2: "https://react-crypto-navy.vercel.app/",
-    title: "Cryptodashboard",
-    text: "Front-end(Course): Dashboard of the most popular crypto currencies.",
-  },
-  {
-    tech: "React",
-    image: "/portfolio/movie.png",
-    link1: "https://github.com/MiguelDIslas/TS-React-Movie",
-    link2: "https://react-movie-jf9pc41i4-migueldislas.vercel.app/",
-    title: "React Movie",
-    text: "Front-end(Course): Single-page application fetching data from TMDB.",
-  },
 ];

@@ -111,12 +111,13 @@ h1 {
 }
 
 .portfolio-image {
+  overflow: hidden;
   &::before {
     content: "";
     position: absolute;
     left: 2%;
-    top: 4%;
     height: 0;
+    max-height: 30vh;
     width: 0;
     transition: all 0.4s ease-in-out;
   }

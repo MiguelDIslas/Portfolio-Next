@@ -24,7 +24,11 @@ export interface IPortofilio {
   /**
    * @description - Link for live demo
    */
-  link2: string;
+  link2?: string;
+  /**
+   * @description - Download link
+   */
+  link3?: string;
   /**
    * @description - Title
    */

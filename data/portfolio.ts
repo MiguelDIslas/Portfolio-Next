@@ -43,19 +43,11 @@ export const portfolioData: IPortofilio[] = [
     tech: "Unity",
     image: "/portfolio/ziguein.png",
     link1: "#",
-    link2:
-      "https://play.google.com/store/apps/details?id=com.MadiProjects.Ziguein",
+    link3: '/download/apk.apk',
     title: "Ziguein",
-    text: "Developer: Zigzag game developed with unity.",
+    text: "Developer: Zigzag game developed with unity. It was published on Google Play but it was removed.",
   },
-  {
-    tech: "Flutter",
-    image: "/portfolio/TDLP.png",
-    link1: "https://github.com/MiguelDIslas/Flutter-TDLP",
-    link2: "https://play.google.com/store/apps/details?id=com.madi.tdlp",
-    title: "TDLP: To Do List",
-    text: "Full Stack: Simple to do list using firebase as backend.",
-  },
+
   {
     tech: "Flutter",
     image: "/portfolio/tecplus.png",

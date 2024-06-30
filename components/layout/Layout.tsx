@@ -6,7 +6,6 @@ import Sidebar from "./Sidebar";
 import { RootState } from "@/types/state/root";
 import { setNavToggle } from "@redux/slices/layout.slice";
 import { FaGithub } from "react-icons/fa";
-import Tilt from "react-parallax-tilt";
 
 /**
  * The props of the component.
@@ -37,10 +36,11 @@ const Layout: React.FC<Props> = ({ children }: Props): JSX.Element => {
         href="https://github.com/MiguelDIslas/Next-Portfolio"
         target="_blank"
         rel="noopener"
-        className="w-30 h-10 bg-primary-color flex items-center justify-center rounded-full fixed right-5 bottom-5 text-md px-2 glow-effect cursor-pointer z-10
-        transition-all duration-300
-        hover:translate-y-[-5px] hover:shadow-lg hover:transition-all hover:duration-300 prevent-select
-        "
+        className={`
+          w-30 h-10 prevent-select bg-primary-color flex items-center justify-center rounded-full fixed right-5 bottom-5 text-md px-2 cursor-pointer z-10
+          transition-all duration-300
+          hover:shadow-2xl hover:shadow-primary-color
+        `}
       >
         Code <FaGithub className="ml-2 text-white" />
       </a>

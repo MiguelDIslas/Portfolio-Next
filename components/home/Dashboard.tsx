@@ -15,9 +15,11 @@ const Dashboard = (): JSX.Element => {
       <section className="w-[80%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <p className="text-[4rem] text-center font-bold mb-5 xl:mb-0 prevent-select">
           {`Hi I'm`}
-          <span className="text-[4rem] text-primary-color ml-2">Miguel Delgado</span>
+          <span className="text-[4rem] text-primary-color ml-2">
+            Miguel Delgado
+          </span>
         </p>
-        <p className="text-sm text-justify lg:text-lg lg:text-center font-semibold prevent-select">
+        <p className="text-sm text-center lg:text-lg font-semibold prevent-select">
           {`I'm a software developer, I like to create things that live on the
           internet, from websites to applications.`}
           <br />
@@ -25,8 +27,8 @@ const Dashboard = (): JSX.Element => {
             {`I'm love with JavaScript/Typescript ecosystems.`}
           </span>
           <br />
-          {`I'm working with NextJS, NestJS, React Native and NetCore. I'm currently
-          improving NetCore and Typescript also I'm learning Unity .`}
+          {`I'm working with React, React Native, .Net Ecosystem and NextJS. I'm currently
+          improving C# and Typescript.`}
         </p>
         <div className="flex justify-center mt-4">
           <SocialMediaIconAnimation

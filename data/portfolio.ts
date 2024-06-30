@@ -16,15 +16,7 @@ export const portfolioData: IPortofilio[] = [
     text: "Full Stack: Developed with Laravel, Livewire and MySQL.",
   },
   {
-    tech: "Laravel",
-    image: "/portfolio/sseitm.png",
-    link1: "#",
-    link2: "http://egresados.itmexicali.edu.mx/",
-    title: "ITM SSE",
-    text: "Full Stack: Developed with Laravel, Livewire and MySQL for Mexicali IT.",
-  },
-  {
-    tech: "NetCore",
+    tech: ".Net",
     image: "/portfolio/itdelicias.png",
     link1: "#",
     link2: "https://www.delicias.tecnm.mx/",
@@ -38,22 +30,5 @@ export const portfolioData: IPortofilio[] = [
     link2: "https://www.gonherbaterias.com/",
     title: "Baterías Gonher",
     text: "Front-end: This website was developed with NextJS, this website is not for Gonher Group, it's for a client.",
-  },
-  {
-    tech: "Unity",
-    image: "/portfolio/ziguein.png",
-    link1: "#",
-    link3: '/download/apk.apk',
-    title: "Ziguein",
-    text: "Developer: Zigzag game developed with unity. It was published on Google Play but it was removed.",
-  },
-
-  {
-    tech: "Flutter",
-    image: "/portfolio/tecplus.png",
-    link1: "#",
-    link2: "https://play.google.com/store/apps/details?id=com.tecplus.tecplus",
-    title: "TEC+",
-    text: "Full Stack: Ecommerce for the student community, firebase as backend.",
   },
 ];

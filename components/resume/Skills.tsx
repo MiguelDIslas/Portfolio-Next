@@ -7,8 +7,9 @@ import {
   SiTypescript,
   SiJavascript,
   SiLaravel,
-  SiLivewire,
   SiNestjs,
+  SiCsharp,
+  SiBlazor
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -29,20 +30,14 @@ const Skills = (): JSX.Element => {
             title="Web and mobile development"
           />
           <HardSkill
-            name="Tailwind"
-            Icon={SiTailwindcss}
+            name="Blazor"
+            Icon={SiBlazor}
             title="Web and mobile designs"
           />
+          <HardSkill name="Typescript" Icon={SiTypescript} />
+          <HardSkill name="C#" Icon={SiCsharp} />
           <HardSkill name="NextJS" Icon={TbBrandNextjs} />
           <HardSkill name="NestJS" Icon={SiNestjs} />
-          <HardSkill name="Typescript" Icon={SiTypescript} />
-          <HardSkill name="Javascript" Icon={SiJavascript} />
-          <HardSkill name="Laravel" Icon={SiLaravel} />
-          <HardSkill
-            name="Livewire"
-            Icon={SiLivewire}
-            title="Applied to client side on laravel projects"
-          />
         </div>
       </div>
     </div>
